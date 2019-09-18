@@ -12,6 +12,10 @@ public class ChatUnits {
     private var units: [ChatUnit] = []
     public weak var delegate: ChatSettingsDelegate?
     
+    public init() {
+        
+    }
+    
     public enum ChangeType {
         case append
         case remove

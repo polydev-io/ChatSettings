@@ -18,4 +18,9 @@ public struct ChatUnit {
     public var title: String
     public var type: ChatUnitType
     
+    public init(title: String, type: ChatUnitType) {
+        self.title = title
+        self.type = type
+    }
+    
 }

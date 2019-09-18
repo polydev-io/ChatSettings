@@ -12,6 +12,16 @@ import UIKit
 public struct Message {
     public var title: String
     public var delay: Double = 1
+    
+    public init(title: String) {
+        self.title = title
+    }
+    
+    public init(title: String, delay: Double) {
+        self.title = title
+        self.delay = delay
+    }
+    
 }
 
 public typealias Messages = [Message]
