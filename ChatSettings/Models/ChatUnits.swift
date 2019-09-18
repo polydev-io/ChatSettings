@@ -8,11 +8,11 @@
 
 import Foundation
 
-class ChatUnits {
+public class ChatUnits {
     private var units: [ChatUnit] = []
     weak var delegate: ChatSettingsDelegate?
     
-    enum ChangeType {
+    public enum ChangeType {
         case append
         case remove
     }

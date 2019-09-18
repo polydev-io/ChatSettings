@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct ChatUnit {
+public struct ChatUnit {
     
-    enum ChatUnitType {
+    public enum ChatUnitType {
         case bot
         case user
     }

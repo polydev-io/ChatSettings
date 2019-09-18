@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Answer {
+public class Answer {
     
     enum CodeElementType {
         case back
@@ -43,4 +43,4 @@ class Answer {
     }
 }
 
-typealias Answers = [Answer]
+public typealias Answers = [Answer]

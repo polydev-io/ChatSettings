@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-struct Message {
+public struct Message {
     var title: String
     var delay: Double = 1
 }
 
-typealias Messages = [Message]
+public typealias Messages = [Message]

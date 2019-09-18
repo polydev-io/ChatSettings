@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Step {
+public class Step {
     var messages: Messages
     var answers: Answers?
     

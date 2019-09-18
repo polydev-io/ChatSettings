@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ChatSettingsDelegate: class {
+public protocol ChatSettingsDelegate: class {
     func chatSettings(new message: String)
     func chatSettings(_ chat: ChatManager, new answers: Answers)
     func chatSettings(_ chatHistoryChanged: ChatUnits.ChangeType, history: ChatUnits)

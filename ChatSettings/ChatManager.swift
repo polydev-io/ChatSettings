@@ -8,9 +8,9 @@
 
 import Foundation
 
-class ChatManager {
+public class ChatManager {
     
-    typealias Steps = [Step]
+    public typealias Steps = [Step]
     
     public weak var delegate: ChatSettingsDelegate? {
         didSet {
