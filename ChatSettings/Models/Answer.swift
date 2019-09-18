@@ -16,7 +16,7 @@ class Answer {
         case value
     }
     
-    typealias CodeElement = (_ chat: ChatSettings, _ data: Any?) -> CodeElementType
+    typealias CodeElement = (_ chat: ChatManager, _ data: Any?) -> CodeElementType
     
     var title: String
     var block: CodeElement
@@ -28,7 +28,7 @@ class Answer {
         self.value = value
     }
     
-    func execute(_ chat: ChatSettings) {
+    func execute(_ chat: ChatManager) {
         // TODO: - Выводить ответ
         chat.chatHistory.append(ChatUnit(title: self.title, type: .user))
         switch block(chat, value) {

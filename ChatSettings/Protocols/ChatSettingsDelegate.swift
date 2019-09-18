@@ -10,6 +10,6 @@ import Foundation
 
 protocol ChatSettingsDelegate: class {
     func chatSettings(new message: String)
-    func chatSettings(_ chat: ChatSettings, new answers: Answers)
+    func chatSettings(_ chat: ChatManager, new answers: Answers)
     func chatSettings(_ chatHistoryChanged: ChatUnits.ChangeType, history: ChatUnits)
 }

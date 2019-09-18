@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF2CD03A233299BC00899DAA /* ChatSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD032233299BC00899DAA /* ChatSettings.swift */; };
+		BF2CD03A233299BC00899DAA /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD032233299BC00899DAA /* ChatManager.swift */; };
 		BF2CD03B233299BC00899DAA /* ChatUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD034233299BC00899DAA /* ChatUnits.swift */; };
 		BF2CD03C233299BC00899DAA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD035233299BC00899DAA /* Message.swift */; };
 		BF2CD03D233299BC00899DAA /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD036233299BC00899DAA /* Step.swift */; };
 		BF2CD03E233299BC00899DAA /* ChatUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD037233299BC00899DAA /* ChatUnit.swift */; };
 		BF2CD03F233299BC00899DAA /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD038233299BC00899DAA /* Answer.swift */; };
 		BF2CD040233299BC00899DAA /* ChatSettingsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD039233299BC00899DAA /* ChatSettingsDelegate.swift */; };
-		BF2CD04623329B5500899DAA /* ChatSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD032233299BC00899DAA /* ChatSettings.swift */; };
+		BF2CD04623329B5500899DAA /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD032233299BC00899DAA /* ChatManager.swift */; };
 		BF2CD04723329B5500899DAA /* ChatUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD034233299BC00899DAA /* ChatUnits.swift */; };
 		BF2CD04823329B5500899DAA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD035233299BC00899DAA /* Message.swift */; };
 		BF2CD04923329B5500899DAA /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD036233299BC00899DAA /* Step.swift */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF2CD032233299BC00899DAA /* ChatSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatSettings.swift; sourceTree = "<group>"; };
+		BF2CD032233299BC00899DAA /* ChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 		BF2CD034233299BC00899DAA /* ChatUnits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatUnits.swift; sourceTree = "<group>"; };
 		BF2CD035233299BC00899DAA /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		BF2CD036233299BC00899DAA /* Step.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		BF9F7BDA2331680700303AF6 /* ChatSettings */ = {
 			isa = PBXGroup;
 			children = (
-				BF2CD032233299BC00899DAA /* ChatSettings.swift */,
+				BF2CD032233299BC00899DAA /* ChatManager.swift */,
 				BF2CD033233299BC00899DAA /* Models */,
 				BF9F7BEC23316BF300303AF6 /* Protocols */,
 				BF9F7BDB2331680700303AF6 /* ChatSettings.h */,
@@ -264,7 +264,7 @@
 			files = (
 				BF2CD03C233299BC00899DAA /* Message.swift in Sources */,
 				BF2CD03D233299BC00899DAA /* Step.swift in Sources */,
-				BF2CD03A233299BC00899DAA /* ChatSettings.swift in Sources */,
+				BF2CD03A233299BC00899DAA /* ChatManager.swift in Sources */,
 				BF2CD040233299BC00899DAA /* ChatSettingsDelegate.swift in Sources */,
 				BF2CD03F233299BC00899DAA /* Answer.swift in Sources */,
 				BF2CD03E233299BC00899DAA /* ChatUnit.swift in Sources */,
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF2CD04623329B5500899DAA /* ChatSettings.swift in Sources */,
+				BF2CD04623329B5500899DAA /* ChatManager.swift in Sources */,
 				BF2CD04723329B5500899DAA /* ChatUnits.swift in Sources */,
 				BF2CD04823329B5500899DAA /* Message.swift in Sources */,
 				BF2CD04923329B5500899DAA /* Step.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ChatSettings {
+class ChatManager {
     
     typealias Steps = [Step]
     
