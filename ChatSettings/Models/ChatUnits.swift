@@ -10,7 +10,7 @@ import Foundation
 
 public class ChatUnits {
     private var units: [ChatUnit] = []
-    weak var delegate: ChatSettingsDelegate?
+    public weak var delegate: ChatSettingsDelegate?
     
     public enum ChangeType {
         case append
@@ -27,11 +27,11 @@ public class ChatUnits {
         units.append(contentsOf: contentsOf)
     }
     
-    var count: Int {
+    public var count: Int {
         return units.count
     }
     
-    subscript(index: Int) -> ChatUnit  {
+    public subscript(index: Int) -> ChatUnit  {
         get {
             return units[index]
         }

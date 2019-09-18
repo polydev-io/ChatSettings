@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 public struct Message {
-    var title: String
-    var delay: Double = 1
+    public var title: String
+    public var delay: Double = 1
 }
 
 public typealias Messages = [Message]

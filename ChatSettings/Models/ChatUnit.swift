@@ -15,7 +15,7 @@ public struct ChatUnit {
         case user
     }
     
-    var title: String
-    var type: ChatUnitType
+    public var title: String
+    public var type: ChatUnitType
     
 }

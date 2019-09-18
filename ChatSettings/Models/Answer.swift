@@ -10,25 +10,25 @@ import Foundation
 
 public class Answer {
     
-    enum CodeElementType {
+    public enum CodeElementType {
         case back
         case normal
         case value
     }
     
-    typealias CodeElement = (_ chat: ChatManager, _ data: Any?) -> CodeElementType
+    public typealias CodeElement = (_ chat: ChatManager, _ data: Any?) -> CodeElementType
     
-    var title: String
-    var block: CodeElement
-    var value: Any?
+    public var title: String
+    public var block: CodeElement
+    public var value: Any?
     
-    init(title: String, value: Any?, block: @escaping CodeElement) {
+    public init(title: String, value: Any?, block: @escaping CodeElement) {
         self.title = title
         self.block = block
         self.value = value
     }
     
-    func execute(_ chat: ChatManager) {
+    public func execute(_ chat: ChatManager) {
         // TODO: - Выводить ответ
         chat.chatHistory.append(ChatUnit(title: self.title, type: .user))
         switch block(chat, value) {

@@ -23,13 +23,13 @@ public class ChatManager {
     private var step: Step {
         return steps[self.stepIndex]
     }
-    lazy var chatHistory: ChatUnits = {
+    public lazy var chatHistory: ChatUnits = {
         let history = ChatUnits()
         history.delegate = delegate
         return history
     }()
     
-    init(_ steps: Steps) {
+    public init(_ steps: Steps) {
         self.steps = steps
     }
     

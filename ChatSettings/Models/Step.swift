@@ -9,10 +9,10 @@
 import Foundation
 
 public class Step {
-    var messages: Messages
-    var answers: Answers?
+    public var messages: Messages
+    public var answers: Answers?
     
-    init(message: Messages, answers: Answers?) {
+    public init(message: Messages, answers: Answers?) {
         self.answers = answers
         self.messages = message
     }
